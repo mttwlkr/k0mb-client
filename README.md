@@ -1,68 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## K0mb Overview
 
-## Available Scripts
+K0mb was an MVP that attempted to provide a clear picture of Instagram reach. K0mb started in the the outdoor industry, but could be applied to any industry. K0mb wanted to show which brands, athletes, influencers and resorts were effectively able to create engaging content and provide insights for less than premium prices. K0mb had two parts; a web scraper and a front end.
 
-In the project directory, you can run:
+## K0mb Web Client
 
-### `npm start`
+The frontend is a single page React app, bootstrapped with Create React App, featuring Ant Design's UI Component Library. Currently, the front end compares profiles from the outdoor industry. This is an MVP and I would like to expand functionality but I currently have no plans to continue. The client, with data from early 2020, is available [here](https://mttwlkr.github.io/k0mb-client/)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## K0mb Scraper
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+K0mb's data comes from a web scraper built in Node JS that spoofs Instagram's GraphQL API, analyzes posts, cleans the data, and compares Instagram profiles from pages in similar categories. The definition of the categories and the pages within is done manually. Instagram has recently updated their API and this scraper currently does not work. Because I was rapidly updating data and wasn't sure the structure I wanted, I am currently shipping all the data along with the client. This is not ideal and I would change this if I continued.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `git clone git@github.com:mttwlkr/k0mb-client.git`
 
-### `npm run build`
+Install all dependencies (I used Node 13)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### `npm install`
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#### `npm start`
