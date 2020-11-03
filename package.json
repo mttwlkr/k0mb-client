@@ -18,7 +18,7 @@
     "react-transition-group": "^4.3.0",
     "recompose": "^0.30.0"
   },
-  "homepage": "https://k0mb.github.io/k0mb",
+  "homepage": "https://mttwlkr.github.io/k0mb-client/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
