@@ -1,0 +1,12 @@
+.mtaw-date {
+  color: red;
+}
+
+.mtaw-old {
+  margin-top: 16px;
+}
+
+.filter-btn-scroll {
+  position: fixed;
+  left: 0;
+}

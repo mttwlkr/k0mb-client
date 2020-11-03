@@ -1,0 +1,16 @@
+
+/* Post Statistics */
+
+.statistics-wrapper {
+  line-height: 1.4;
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 740px) {
+  .statistics-wrapper {
+    padding: 24px;
+    width: 100%;
+    margin: 0
+  }
+}

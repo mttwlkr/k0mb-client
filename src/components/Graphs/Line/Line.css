@@ -1,0 +1,12 @@
+.node-info {
+  padding: 2px 0;
+  color: white;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.graph-container {
+  min-width: 1000px;
+}
