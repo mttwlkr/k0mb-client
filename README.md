@@ -19,3 +19,5 @@ Install all dependencies (I used Node 13)
 #### `npm install`
 
 #### `npm start`
+
+![komb-screenshot](https://user-images.githubusercontent.com/30199861/101432931-0183e300-38c7-11eb-86ab-0d41b6ce6433.png)
